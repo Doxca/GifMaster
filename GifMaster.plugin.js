@@ -6,7 +6,7 @@
  * @description import & export your gifs 
  * @invite https://discord.gg/rEDCnRwbHU
  * @source https://github.com/Doxca/GifMaster
- * @updateUrl https://raw.githubusercontent.com/Doxca/GifMaster/main/
+ * @updateUrl https://raw.githubusercontent.com/Doxca/GifMaster/main/GifMaster.plugin.js
  */
  module.exports = class GifMaster {
 load() {frame();}
