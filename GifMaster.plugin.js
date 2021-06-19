@@ -57,7 +57,7 @@ function frame(){
 					v.setSelectionRange(0, 99999);
 					document.execCommand("copy");
 					v.remove();
-					BdApi.showToast("copy to clipeboard");
+					BdApi.showToast("copy to clipboard");
 				}else{BdApi.showToast('nothing to copy',{type:"warning"});}});
 				document.getElementById('s'+rnd).addEventListener('click',()=>{
 				toastinput(elem.children[1].children[0].className,elem.parentElement.parentElement.parentElement);
